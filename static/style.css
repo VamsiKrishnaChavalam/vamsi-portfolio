@@ -152,7 +152,7 @@ nav a:hover {
 .certifications-list a {
   color: var(--text);
   text-decoration: none;
-  font-weight: bold;
+  
 }
 
 .certifications-list a:hover {
