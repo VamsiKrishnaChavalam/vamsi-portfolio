@@ -222,3 +222,75 @@ nav a:hover {
   color: #007BFF;
 }
 
+/* === Responsive Mobile Enhancements === */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .hero {
+    padding: 2rem 1rem;
+  }
+
+  .hero-img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .typewriter {
+    font-size: 1.5rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+
+  .btn, .btn-outline {
+    width: 90%;
+    text-align: center;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  }
+
+  .timeline {
+    padding-left: 1rem;
+  }
+
+  .timeline-item {
+    padding-left: 1rem;
+  }
+
+  .timeline-dot {
+    left: -10px;
+    width: 12px;
+    height: 12px;
+  }
+
+  .certifications-list {
+    padding-left: 0.5rem;
+    font-size: 1rem;
+  }
+
+  .social-icons a {
+    font-size: 1.5rem;
+    margin: 0 8px;
+  }
+
+  h1, h2 {
+    font-size: 1.6rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  ul {
+    padding-left: 1rem;
+  }
+}
+
+
