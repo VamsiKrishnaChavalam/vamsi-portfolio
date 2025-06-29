@@ -149,6 +149,17 @@ nav a:hover {
   margin-bottom: 10px;
   line-height: 1.6;
 }
+.certifications-list a {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.certifications-list a:hover {
+  color: #007BFF;
+  text-decoration: underline;
+}
+
 
 /* Timeline */
 .timeline {
